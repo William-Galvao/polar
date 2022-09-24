@@ -1,40 +1,30 @@
+<script setup>
+
+const links = [
+  { nome: "home", path: "/" },
+  { nome: "cultura", path: "/cultura" },
+  { nome: "economia", path: "/economia" },
+  { nome: "esportes", path: "/esportes" },
+  { nome: "geografia", path: "/geografia" },
+  { nome: "historia", path: "/historia" },
+  { nome: "infraestrutura", path: "/infraestrutura" }
+]
+
+</script>
+
 <template>
 
-  <nav class="bg-neutral-700 h-16 text-black flex justify-evenly gap-8 text-xl items-center border-b-4 border-gray-500">
+  <nav id="navbar" class="flex justify-center" v-for="link in links" :key="link.nome">
 
+    <span>
 
+      <a :href="link.path">
 
-    <a href="/">
+        {{link.nome}}
 
-      Home
-    </a>
+      </a>
 
-
-    <a href="/cultura">
-
-      Cultura
-    </a>
-
-
-    <a href="/economia">
-      Economia
-    </a>
-
-    <a href="/esportes">
-      Esportes
-    </a>
-
-    <a href="/geografia">
-      Geografia
-    </a>
-
-    <a href="/historia">
-      Historia
-    </a>
-
-    <a href="/infraestrutura">
-      Infraestrutura
-    </a>
+    </span>
 
   </nav>
 
