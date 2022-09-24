@@ -14,9 +14,10 @@ const links = [
 
 <template>
 
-  <nav id="navbar" class="flex justify-center" v-for="link in links" :key="link.nome">
+  <nav class="flex justify-evenly items-center h-20">
+    <div v-for="link in links" :key="link.nome">
 
-    <span>
+
 
       <a :href="link.path">
 
@@ -24,8 +25,10 @@ const links = [
 
       </a>
 
-    </span>
 
+
+    </div>
   </nav>
 
-</template>;
+
+</template>
