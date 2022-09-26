@@ -14,7 +14,7 @@ const links = [
 
 <template>
 
-  <nav class="flex justify-evenly items-center h-20">
+  <nav class="flex justify-evenly items-center h-20 font-serif italic  bg-gray-100">
     <div v-for="link in links" :key="link.nome">
 
 
