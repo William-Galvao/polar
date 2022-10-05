@@ -1,12 +1,12 @@
 <template>
 
   <div class="my-14">
-    <img class=" animate__animated animate__fadeIn w-5/12 mx-auto rounded-lg " src='@/assets/images/historia.jpg'
+    <img class=" animate__animated animate__fadeIn lg:w-5/12 mx-auto rounded-lg " src='@/assets/images/historia.jpg'
       alt="historia">
   </div>
 
   <section
-    class=" animate__animated animate__fadeInUp mx-80 grid gap-10 text-xl text-justify font-display font-semibold indent-16 border-r-2 pr-8">
+    class=" animate__animated animate__fadeInUp ml-5 lg:mx-80 grid gap-10 text-sm text-center lg:text-xl lg:text-justify font-display font-semibold indent-16 border-r-2 pr-8">
 
     <p>A Terra do Fogo foi habitada por povos indígenas desde cerca de onze mil anos atrás, procedentes do norte do
       continente. Entre esses povos estavam os onas, os chonkóiunka, os alacalufos e os yagans. Embora tivessem culturas

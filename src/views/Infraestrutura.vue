@@ -1,6 +1,6 @@
 <template>
   <p
-    class=" animate__animated animate__fadeInRight mx-20 my-10  text-xl text-justify font-display font-semibold indent-16 border-r-2 pr-8">
+    class=" animate__animated animate__fadeInRight mx-20 my-10  text-sm text-center lg:text-xl lg:text-justify font-display font-semibold indent-16 border-r-2 pr-8">
     Ushuaia não conta com via férrea e as estradas são pobres, havendo somente uma que a liga ao resto do continente, a
     Ruta Nacional 3. Contudo, tem um aeroporto internacional e intensa movimentação marítima. Em 2011 o porto entrou
     em obras para ampliação e adequação à demanda crescente. Os novos bairros que crescem sem cessar nos arrabaldes têm
@@ -25,21 +25,21 @@
     rede de distribuição para o distrito industrial e para o bairro Viviendas. Também foi implantado um plano de
     economia de energia e de controle de perdas não-técnicas. Em 2015 foram abertas duas licitações para a construção de
     duas redes troncais de grande envergadura. O gás natural também é uma fonte importante de energia, e recentemente
-    foi construída uma nova Planta Reguladora.[50] Em 2014 foi entregue à população uma renovação do centro, o Open Sky
+    foi construída uma nova Planta Reguladora. Em 2014 foi entregue à população uma renovação do centro, o Open Sky
     Mall, com calçadas com piso aquecido, nova iluminação e caminhos para pessoas com deficiências.
   </p>
 
 
 
   <div>
-    <img class=" animate__animated animate__fadeInLeft w-5/12 rounded-lg mx-auto" src='@/assets/images/infra.jpg'
+    <img class=" animate__animated animate__fadeInLeft lg:w-5/12 rounded-lg mx-auto" src='@/assets/images/infra.jpg'
       alt="Visão do porto">
   </div>
 
   <div>
 
     <p
-      class=" animate__animated animate__fadeInRight mx-20 my-10  text-xl text-justify font-display font-semibold indent-16 border-r-2 pr-8">
+      class=" animate__animated animate__fadeInRight mx-20 my-10 text-sm text-center lg:text-xl lg:text-justify font-display font-semibold indent-16 border-r-2 pr-8">
 
       Há sete Centros de Atenção Primária da Saúde, que são hospitais gerais onde se busca uma integração do tratamento
       com as famílias. Existe também um hospital regional. A Direção de Epidemiologia e Informação sobre Saúde

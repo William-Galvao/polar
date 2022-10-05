@@ -1,6 +1,6 @@
 <template>
 
-    <section class="bg-gray-100 ">
+    <section class="bg-gray-100">
         
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div class="animate__animated animate__fadeInLeft mr-auto place-self-center lg:col-span-7">
@@ -10,7 +10,7 @@
                     Capital da província da Terra do Fogo, Antártida e Ilhas do Atlântico Sul.</p>
             </div>
             <div class="animate__animated animate__fadeInRight lg:mt-0 lg:col-span-5 lg:flex">
-                <img class="rounded-lg" src="@/assets/images/hero-image.png" alt="mockup">
+                <img class="rounded-lg w-full lg:w-full" src="@/assets/images/hero-image.png" alt="mockup">
             </div>
         </div>
     </section>
