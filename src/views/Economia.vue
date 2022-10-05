@@ -1,14 +1,14 @@
 <template>
-  <div class="grid grid-cols-2 mt-10">
+  <div class="lg:grid lg:grid-cols-2 mr-12 lg:mt-10">
 
     <div class="my-auto pl-20">
-      <img class=" animate__animated animate__fadeInLeft w-10/12 rounded-lg " src='@/assets/images/turismo.jpeg'
+      <img class=" animate__animated animate__fadeInLeft w-screen lg:w-10/12 rounded-lg " src='@/assets/images/turismo.jpeg'
         alt="turistas com snowmobile">
     </div>
 
     <div class="pr-20">
       <p
-        class=" animate__animated animate__fadeInRight text-xl text-justify font-display font-semibold indent-16 border-r-2 pr-8 ">
+        class=" animate__animated animate__fadeInRight text-sm text-justify m-8 lg:text-xl lg:text-justify font-display font-semibold indent-16 lg:border-r-2 lg:pr-8 ">
         A economia de Ushuaia dependeu inicialmente da atividade de pescadores, caçadores de lobos-marinhos, baleeiros e
         criadores de ovelhas, mas segundo Mastrocello, progrediu com vagar. O primeiro impulso firme para a estruturação
         econômica da cidade e da província foi a construção do presídio, um prédio de grandes proporções, que atraiu uma
@@ -30,7 +30,7 @@
   </div>
 
   <div
-    class=" animate__animated animate__fadeInUp mx-20 pt-8 grid gap-10 text-xl text-justify font-display font-semibold indent-16 border-r-2 pr-8">
+    class=" animate__animated animate__fadeInUp lg:mx-20 lg:pt-8 grid gap-10 text-sm text-center lg:text-xl lg:text-justify font-display font-semibold indent-16 lg:border-r-2 lg:pr-8">
     <p>
       A cidade tem forte vocação turística e o setor tem recebido grande atenção oficial, buscando entre outras coisas
       quebrar a tendência ao turismo sazonal e diversificando as atrações por todo o ano. Em 2009 chegaram à cidade

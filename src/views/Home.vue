@@ -8,7 +8,7 @@ import HeroImage from '../components/HeroImage.vue';
 
 <HeroImage/>
 
-<section class=" animate__animated animate__fadeInLeft mx-80 my-10 grid gap-10 text-xl text-justify font-display font-semibold indent-16 border-r-2 pr-8">
+<section class=" animate__animated animate__fadeInLeft lg:mx-80 lg:my-10 mx-50 my-10 grid gap-8 text-sm text-center lg:text-xl lg:text-justify font-display font-semibold indent-16 border-r-2 pr-8">
     <p> Habitada pelo homem há milhares de anos, foi colonizada por europeus a partir de meados do século XIX, que
         instalaram missões para catequização dos indígenas. Estes, porém, logo desapareceram sob o impacto da
         aculturação e da devastação causada por epidemias trazidas pelos colonizadores.</p>

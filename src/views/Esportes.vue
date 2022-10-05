@@ -1,6 +1,6 @@
 <template>
 
-  <p class=" animate__animated animate__fadeInRight mx-20 my-10  text-xl text-justify font-display font-semibold indent-16 border-r-2 pr-8">
+  <p class=" animate__animated animate__fadeInRight mx-20 my-10  text-sm text-center lg:text-xl lg:text-justify font-display font-semibold indent-16 border-r-2 pr-8">
     Ushuaia está inserida no programa da Secretaria de Desportes do Governo Provincial da Terra do Fogo, que tem
     procurado manter atividades ao longo de todo o ano, fomentando festivais de grande envergadura como os Jogos
     Patagônicos Epade, os Jogos JuPaBi, as Olimpíadas Fueguinas do Adulto Maior, os Jogos Binacionais da Araucanía e
@@ -22,7 +22,7 @@
 
   <div>
 
-    <p class=" animate__animated animate__fadeInRight mx-20 my-10  text-xl text-justify font-display font-semibold indent-16 border-r-2 pr-8">
+    <p class=" animate__animated animate__fadeInRight mx-20 my-10  text-sm text-center lg:text-xl lg:text-justify font-display font-semibold indent-16 border-r-2 pr-8">
 
       Localmente a intendência fomenta várias atividades em múltiplas modalidades para todas as idades, como vôlei,
       judô, futebol, ginástica, basquete, handebol, atletismo, automobilismo, etc, e mantém escolas e centros
