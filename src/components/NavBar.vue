@@ -37,11 +37,11 @@ const isClosed = ref(true);
       </a>
     </div>
     <button
-      class="rotate-90 text-xl md:hidden"
+      class="text-xl md:hidden"
       v-if="isClosed"
       @click="isClosed = !isClosed"
     >
-      |||
+    <fa icon='bars'/>
     </button>
 
     <button
@@ -49,7 +49,7 @@ const isClosed = ref(true);
       v-if="!isClosed"
       @click="isClosed = !isClosed"
     >
-      ^
+    <fa icon='arrow-up'/>
     </button>
   </nav>
 </template>
