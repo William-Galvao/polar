@@ -1,12 +1,16 @@
+<script setup>
+ import LayoutUp from '../components/LayoutUp.vue';
+
+
+</script>
+
+
+
 <template>
-  <div class="my-14">
-    <img class=" animate__animated animate__fadeIn lg:w-5/12 mx-auto rounded-lg " src='@/assets/images/cultura.jpg'
-      alt="Placa de boas vindas">
-  </div>
 
-  <section
-    class=" animate__animated animate__fadeInUp lg:mx-80 grid gap-10 text-sm text-center lg:text-xl lg:text-justify font-display font-semibold indent-16 pr-6 lg:border-r-2 lg:pr-8">
-
+  <LayoutUp image="https://www.brasileirosemushuaia.com.br/wordpress/wp-content/uploads/2018/08/bloggg.jpg">
+  
+  
     <p>Segundo o historiador Arnoldo Canclini, a composição peculiar da população, com grande quantidade de imigrantes,
       não
       permitiu ainda se criar uma cultura autóctone diferenciada. Em 1991, 86% dos habitantes nativos da cidade tinham
@@ -50,5 +54,6 @@
     </p>
 
 
-  </section>
+  
+</LayoutUp>
 </template>

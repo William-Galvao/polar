@@ -16,7 +16,7 @@ const isClosed = ref(true);
 
 <template>
   <nav
-    class="
+    class="animate__animated animate__fadeInDown
       flex flex-col
       md:flex-row md:h-20
       justify-evenly
