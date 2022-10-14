@@ -1,4 +1,18 @@
+<script setup>
+import LayoutMidle from '../components/LayoutMidle.vue';
+
+
+
+
+
+</script>
+
+
 <template>
+
+  <LayoutMidle image="https://ushuaia-incoming-experience.tur.ar/wp-content/uploads/2020/11/USH-PANORAMICA-98.JPG-1-1024x683.jpg" alt="Visão da cidade.">
+
+    <template v-slot:text>
   <p
     class=" animate__animated animate__fadeInRight mx-20 my-10  text-sm text-center lg:text-xl lg:text-justify font-display font-semibold indent-16 border-r-2 pr-8">
     Ushuaia não conta com via férrea e as estradas são pobres, havendo somente uma que a liga ao resto do continente, a
@@ -28,13 +42,9 @@
     foi construída uma nova Planta Reguladora. Em 2014 foi entregue à população uma renovação do centro, o Open Sky
     Mall, com calçadas com piso aquecido, nova iluminação e caminhos para pessoas com deficiências.
   </p>
+</template>
 
-
-
-  <div>
-    <img class=" animate__animated animate__fadeInLeft lg:w-5/12 rounded-lg mx-auto" src='@/assets/images/infra.jpg'
-      alt="Visão do porto">
-  </div>
+  
 
   <div>
 
@@ -72,4 +82,7 @@
     </p>
 
   </div>
+
+</LayoutMidle>
+
 </template>
