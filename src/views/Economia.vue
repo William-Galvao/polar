@@ -1,12 +1,18 @@
-<template>
-  <div class="lg:grid lg:grid-cols-2 mr-12 lg:mt-10">
+<script setup>
+import Footer from '../components/Footer.vue';</script>
 
-    <div class="my-auto pl-20">
-      <img class=" animate__animated animate__fadeInLeft w-screen lg:w-10/12 rounded-lg " src='@/assets/images/turismo.jpeg'
-        alt="turistas com snowmobile">
+<template>
+  <div class="flex justify-center my-8 border-b-2 mx-8 py-4">
+    <h1 class="text-4xl font-semibold">Economia</h1>
+  </div>
+  <div class="lg:grid lg:grid-cols-2 lg:mr-12 lg:mt-10">
+
+    <div class="my-auto mx-4 lg:pl-20">
+      <img class=" animate__animated animate__fadeInLeft w-screen lg:w-10/12 rounded-lg "
+        src='@/assets/images/turismo.jpeg' alt="turistas com snowmobile">
     </div>
 
-    <div class="pr-20">
+    <div class="lg:pr-20">
       <p
         class=" animate__animated animate__fadeInRight text-sm text-justify m-8 lg:text-xl lg:text-justify font-display font-semibold indent-16 lg:border-r-2 lg:pr-8 ">
         A economia de Ushuaia dependeu inicialmente da atividade de pescadores, caçadores de lobos-marinhos, baleeiros e
@@ -30,7 +36,7 @@
   </div>
 
   <div
-    class=" animate__animated animate__fadeInUp lg:mx-20 lg:pt-8 grid gap-10 text-sm text-center lg:text-xl lg:text-justify font-display font-semibold indent-16 lg:border-r-2 lg:pr-8">
+    class=" animate__animated animate__fadeInUp lg:mx-20 mx-8 lg:pt-8 grid gap-10 text-sm text-justify lg:text-xl lg:text-justify font-display font-semibold indent-16 lg:border-r-2 lg:pr-8">
     <p>
       A cidade tem forte vocação turística e o setor tem recebido grande atenção oficial, buscando entre outras coisas
       quebrar a tendência ao turismo sazonal e diversificando as atrações por todo o ano. Em 2009 chegaram à cidade
@@ -43,7 +49,7 @@
     </p>
 
     <p class="italic px-10">
-      [...] Hoje há uma presença muito importante da atividade industrial muito semelhante ao caso da Zona Franca de
+      "[...] Hoje há uma presença muito importante da atividade industrial muito semelhante ao caso da Zona Franca de
       Manaus no Brasil. Isso gera uma fluência de investimentos muito diversa que leva a cidade a ter um perfil muito
       dinâmico com um nível de atualização permanente. Atualmente em Ushuaia participam mais de 15 mil pessoas de forma
       direta da atividade turística; obviamente que o turismo é uma atividade que está permanentemente em evolução, onde
@@ -53,7 +59,7 @@
       sempre atraiu o mercado e o turista brasileiro. Há obviamente um desenvolvimento comercial, orientado pelas
       grandes marcas de perfume, grandes marcas de roupa, grandes marcas das atividades esportivas de inverno e ao ar
       livre e isso tem a ver com a promoção que a própria lei gera, que hoje permite que Ushuaia tenha um tratamento
-      diferente em relação ao país inteiro. Isso também gerou [...] o desenvolvimento industrial.
+      diferente em relação ao país inteiro. Isso também gerou [...] o desenvolvimento industrial."
 
     </p>
 
@@ -82,6 +88,8 @@
     </p>
 
   </div>
+
+  <Footer />
 
 
 </template>

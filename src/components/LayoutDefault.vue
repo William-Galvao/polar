@@ -1,10 +1,11 @@
 <script setup>
+import Footer from './Footer.vue';
 
-const props= defineProps({
+const props = defineProps({
     image: String,
     titulo: String,
     subtitulo: String,
-    
+
 
 })
 
@@ -29,8 +30,8 @@ const props= defineProps({
 
     <section
         class=" animate__animated animate__fadeInLeft lg:mx-80 lg:my-10 mx-50 my-10 grid gap-8 text-sm text-center lg:text-xl lg:text-justify font-display font-semibold indent-16 border-r-2 pr-8">
-       <slot></slot>
+        <slot></slot>
 
     </section>
-
+    <Footer />
 </template>
