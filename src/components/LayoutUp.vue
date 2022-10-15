@@ -24,7 +24,8 @@ const props = defineProps({
       text-sm text-justify
       lg:text-xl lg:text-justify
       font-display font-semibold
-      indent-16
+      lg:indent-16
+      indent-4
       lg:pr-6
       lg:border-r-2 lg:pr-8
     ">

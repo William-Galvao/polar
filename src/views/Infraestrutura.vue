@@ -16,7 +16,8 @@ import LayoutMidle from "../components/LayoutMidle.vue";
           text-sm
           lg:text-xl text-justify
           font-display font-semibold
-          indent-16
+          lg:indent-16
+      indent-4
           lg:border-r-2
           lg:pr-8
         ">
@@ -74,7 +75,8 @@ import LayoutMidle from "../components/LayoutMidle.vue";
           text-sm
           lg:text-xl text-justify
           font-display font-semibold
-          indent-16
+          lg:indent-16
+      indent-4
           lg:border-r-2
           lg:pr-8">
 
