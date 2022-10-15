@@ -14,7 +14,8 @@ import LayoutAlternative from "../components/LayoutAlternative.vue";
             text-sm
             lg:text-xl text-justify
             font-display font-semibold
-            indent-16
+            lg:indent-16
+      indent-4
           ">
           O nome Ushuaia é uma combinação de duas palavras do idioma yagan:
           ushu, um termo de difícil tradução com o significado de algo que
@@ -31,7 +32,8 @@ import LayoutAlternative from "../components/LayoutAlternative.vue";
             text-sm
             lg:text-xl text-justify
             font-display font-semibold
-            indent-16
+            lg:indent-16
+      indent-4
           ">
           Ushuaia encontra-se nas coordenadas 54° 48' 57" S 68° 19' 04" O, a 3
           mil km de Buenos Aires, a capital argentina. Está a sudoeste da Ilha
@@ -52,7 +54,8 @@ import LayoutAlternative from "../components/LayoutAlternative.vue";
             text-sm
             lg:text-xl text-justify
             font-display font-semibold
-            indent-16
+            lg:indent-16
+      indent-4
             lg:px-20
             m-8
       ">

@@ -29,7 +29,7 @@ const props = defineProps({
     </section>
 
     <section
-        class=" animate__animated animate__fadeInLeft lg:mx-80 lg:my-10 mx-50 my-10 grid gap-8 text-sm text-center lg:text-xl lg:text-justify font-display font-semibold indent-16 border-r-2 pr-8">
+        class=" animate__animated animate__fadeInLeft lg:mx-80 lg:my-10 mx-8 my-10 grid gap-8 text-sm text-justify lg:text-xl lg:text-justify font-display font-semibold lg:indent-16 indent-4 lg:border-r-2 lg:pr-8">
         <slot></slot>
 
     </section>
